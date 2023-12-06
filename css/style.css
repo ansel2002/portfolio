@@ -1,5 +1,5 @@
 /* CSS Variables */
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url(partials/_variables.css);
 
 /* global styling */
@@ -10,6 +10,8 @@
 
 .header-area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 1rem;
+    font-size: 0.8em;
+    
 }
 
 .header-area .main-menu .navbar{
@@ -52,8 +54,9 @@
  }
 
  .banner-image{
-    padding: 5rem 0;
-    width: 90rem;  
+    
+    padding: 5% 0;
+    width: 40rem;  
     height: 35rem;
  }
 
@@ -85,22 +88,7 @@
 
 /* skills section ends */
 
-/* portfolio section starts here */
 
-    .projects a.img {
-        max-height: 120px;
-        max-width: 200px;
-    }
-
-    #tk-logo {
-        padding-top: 3.5rem;
-    }
-
-    #skt-logo {
-        padding-top: 4.0rem;
-    }
-
-/* portfolio section ends here  */
 
 /* contact section starts here  */
 
